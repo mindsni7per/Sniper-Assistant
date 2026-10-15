@@ -1,0 +1,13 @@
+{
+  "name": "server-assistant",
+  "version": "1.0.0",
+  "description": "Sniper's Assistant",
+  "main": "index.js",
+  "scripts": {"start": "node index.js", "register": "node register-commands.js"},
+  "engines": {"node": ">=20.11.0"},
+  "dependencies": {
+    "discord.js": "^14.22.1",
+    "better-sqlite3": "^12.2.0",
+    "dotenv": "^16.6.1"
+  }
+}
